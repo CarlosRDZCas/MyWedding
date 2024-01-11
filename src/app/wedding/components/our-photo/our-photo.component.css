@@ -1,0 +1,12 @@
+.image-photo {
+	height: 70vh;
+	background-repeat: no-repeat;
+}
+
+.glass {
+	backdrop-filter: blur(3px);
+	border-radius: 30px;
+
+	width: fit-content;
+	background-color: rgba(0, 0, 0, 0.2);
+}
