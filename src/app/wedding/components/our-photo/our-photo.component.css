@@ -13,14 +13,14 @@
 
 /* @font-face {
   font-family: 'WeddingBells';
-  src: url('/assets/fonts/wedding-bells/wedding-bells.ttf');
+  src: url('/../assets/fonts/wedding-bells/wedding-bells.ttf');
 } */
 
 @font-face {
-  font-family: 'GreatVibes';
-  src: url('/./assets/fonts/great-vibes/GreatVibes-Regular.ttf');
+  font-family: 'WeddingBells';
+  src: url('https://carlosrdzcas.github.io/MyWedding/assets/fonts/wedding-bells/wedding-bells.ttf');
 }
 
 *{
-  font-family: 'GreatVibes';
+  font-family: 'WeddingBells';
 }
