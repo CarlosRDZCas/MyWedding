@@ -18,12 +18,9 @@
 
 @font-face {
   font-family: 'LatinRoman';
-  src: url('/assets/fonts/latin-modern-roman/lmroman10-regular.otf');
+  src: url('/assets/fonts/wedding-bells/wedding-bells.ttf');
 }
 
-*{ box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-weight: bold;
-  font-family: 'LatinRoman', sans-serif;
+*{
+  font-family: 'LatinRoman';
 }
