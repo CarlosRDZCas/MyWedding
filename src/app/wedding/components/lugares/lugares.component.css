@@ -12,3 +12,10 @@
 	margin-left: -3px;
 	margin-top: -12px;
 }
+@font-face {
+  font-family: 'LatinRoman';
+  src: url('/assets/fonts/latin-modern-roman/lmroman10-regular.otf');
+}
+*{
+  font-family: 'LatinRoman';
+}
