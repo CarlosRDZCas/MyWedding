@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'LatinRoman';
-  src: url('/assets/fonts/latin-modern-roman/lmroman10-regular.otf');
+  src: url('/./assets/fonts/latin-modern-roman/lmroman10-regular.otf');
 }
 *{
   font-family: 'LatinRoman';
