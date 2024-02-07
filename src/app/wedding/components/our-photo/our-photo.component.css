@@ -11,17 +11,19 @@
 	background-color: rgba(0, 0, 0, 0.2);
 }
 
-@font-face {
+/* @font-face {
   font-family: 'WeddingBells';
-  src: url('/./assets/fonts/wedding-bells/wedding-bells.ttf');
-  font-weight: normal;
-    font-style: normal;
-}
+  src: url('/assets/fonts/wedding-bells/wedding-bells.ttf');
+} */
 
+@font-face {
+  font-family: 'LatinRoman';
+  src: url('/assets/fonts/latin-modern-roman/lmroman10-regular.otf');
+}
 
 *{ box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-weight: bold;
-  font-family: 'WeddingBells', sans-serif;
+  font-family: 'LatinRoman', sans-serif;
 }
