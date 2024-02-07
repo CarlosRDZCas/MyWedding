@@ -17,10 +17,10 @@
 } */
 
 @font-face {
-  font-family: 'LatinRoman';
+  font-family: 'WeddingBells';
   src: url('/assets/fonts/wedding-bells/wedding-bells.ttf');
 }
 
 *{
-  font-family: 'LatinRoman';
+  font-family: 'WeddingBells';
 }
