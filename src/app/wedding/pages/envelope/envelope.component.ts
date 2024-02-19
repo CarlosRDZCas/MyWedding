@@ -12,7 +12,7 @@ export class EnvelopeComponent {
   constructor(private router:Router){}
 
   navigate(){
-    console.log('hola');
+
     this.router.navigate(['/invitation'])
   }
 
