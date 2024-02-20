@@ -16,4 +16,7 @@ export class EnvelopeComponent {
     this.router.navigate(['/invitation'])
   }
 
+
+
+
 }
