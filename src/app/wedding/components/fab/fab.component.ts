@@ -10,19 +10,19 @@ export class FabComponent {
 
   ngOnInit(): void {
     this.audio.load();
-    this.playSound();
+    this.audio.play();
 
   }
 
-
-  playSound() {
+  playSound(element: any) {
     this.audio.muted = false;
     if (!this.audio.paused) {
-      console.log('pausar');
       this.audio.pause();
+      element.textContent = 'Play';
+
     } else {
-      console.log('play');
       this.audio.play();
+      element.textContent = 'Pause';
     }
   }
 }
