@@ -4,13 +4,15 @@
 }
 
 .divider {
-	border-left: 2.5px solid rgb(26, 26, 26);
+	/* border-left: 2.5px solid rgb(26, 26, 26);
 	height: 45px;
 	width: 3px;
 	position: absolute;
 	left: 50%;
 	margin-left: -3px;
-	margin-top: -12px;
+	margin-top: -12px; */
+
+  background-image: url('https://carlosrdzcas.github.io/MyWedding/assts/photos/footprints.png');
 }
 @font-face {
   font-family: 'LatinRoman';
