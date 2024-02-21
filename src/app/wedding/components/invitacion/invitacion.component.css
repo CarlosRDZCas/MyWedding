@@ -5,3 +5,9 @@
 *{
   font-family: 'LatinRoman';
 }
+
+
+.bg {
+  background-image: url("https://carlosrdzcas.github.io/MyWedding/assets/photos/bgpapiro.jpg");
+  background-size: cover;
+}

@@ -1,23 +1,20 @@
 .icon {
-	height: 85px;
-	width: 85px;
+  height: 85px;
+  width: 85px;
 }
 
-.divider {
-	/* border-left: 2.5px solid rgb(26, 26, 26);
-	height: 45px;
-	width: 3px;
-	position: absolute;
-	left: 50%;
-	margin-left: -3px;
-	margin-top: -12px; */
 
-  background-image: url('https://carlosrdzcas.github.io/MyWedding/assets/photos/footprints.png');
+
+.footprints {
+  height: 30px;
+  transform: rotate(90deg);
 }
+
 @font-face {
-  font-family: 'LatinRoman';
-  src: url('https://carlosrdzcas.github.io/MyWedding/assets/fonts/latin-modern-roman/lmroman10-regular.otf');
+  font-family: "LatinRoman";
+  src: url("https://carlosrdzcas.github.io/MyWedding/assets/fonts/latin-modern-roman/lmroman10-regular.otf");
 }
-*{
-  font-family: 'LatinRoman';
+* {
+  font-family: "LatinRoman";
+
 }
