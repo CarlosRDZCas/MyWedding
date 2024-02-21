@@ -13,6 +13,7 @@ import { InvitationComponent } from './pages/invitation/invitation.component';
 import { InvitacionComponent } from './components/invitacion/invitacion.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { RouterModule } from '@angular/router';
+import { IntinerarioComponent } from './components/intinerario/intinerario.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { RouterModule } from '@angular/router';
     GiftComponent,
     ConfirmationComponent,
     EnvelopeComponent,
+    IntinerarioComponent
   ],
   imports: [CommonModule,RouterModule],
   exports: [
@@ -39,6 +41,7 @@ import { RouterModule } from '@angular/router';
     GiftComponent,
     ConfirmationComponent,
     EnvelopeComponent,
+    IntinerarioComponent
   ],
   providers: [],
 })
