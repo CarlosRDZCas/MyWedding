@@ -1,6 +1,33 @@
 :host {
   display: block;
 }
-.bg {
-  background-color: ivory;
+
+.parallax {
+
+  width: 100vw;
+  min-height: 500px;
+  position: relative;
+  /* The image used */
+
+
+}
+
+.parallax::before{
+
+  /* Set a specific height */
+  content: "";
+  background: url("https://carlosrdzcas.github.io/MyWedding/assets/photos/marauders.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  /* Create the parallax scrolling effect */
+
 }
