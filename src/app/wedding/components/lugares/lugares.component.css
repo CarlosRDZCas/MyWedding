@@ -5,6 +5,7 @@
 
 
 
+
 .footprints {
   height: 30px;
   transform: rotate(90deg);
@@ -17,4 +18,8 @@
 * {
   font-family: "LatinRoman";
 
+}
+
+button{
+position: relative;
 }

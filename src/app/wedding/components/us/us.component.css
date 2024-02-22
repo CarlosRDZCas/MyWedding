@@ -1,15 +1,29 @@
 .img-size {
-	height: 180px;
-	width: 180px;
+  height: 180px;
+  width: 180px;
 }
 .bg-color {
-	background-color: #718f3e;
+  width: 100vw;
+
+  position: relative;
+}
+
+.bg-color::before {
+  content: "";
+  background: #718f3e;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 @font-face {
-  font-family: 'LatinRoman';
-  src: url('https://carlosrdzcas.github.io/MyWedding/assets/fonts/latin-modern-roman/lmroman10-regular.otf');
+  font-family: "LatinRoman";
+  src: url("https://carlosrdzcas.github.io/MyWedding/assets/fonts/latin-modern-roman/lmroman10-regular.otf");
 }
-*{
-  font-family: 'LatinRoman';
+* {
+  font-family: "LatinRoman";
 }
