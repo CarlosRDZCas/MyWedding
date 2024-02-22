@@ -1,0 +1,12 @@
+:host {
+  display: block;
+}
+
+.tam{
+  height: 85vh;
+  width: 100vw;
+}
+#mapa{
+  height: 80vh;
+  width: 100vw;
+}

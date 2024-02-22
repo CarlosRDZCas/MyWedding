@@ -11,9 +11,10 @@ import { ConfirmationComponent } from './components/confirmation/confirmation.co
 import { EnvelopeComponent } from './pages/envelope/envelope.component';
 import { InvitationComponent } from './pages/invitation/invitation.component';
 import { InvitacionComponent } from './components/invitacion/invitacion.component';
-import { AppRoutingModule } from '../app-routing.module';
 import { RouterModule } from '@angular/router';
 import { IntinerarioComponent } from './components/intinerario/intinerario.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { DialogIglesiaComponent } from './components/dialog-iglesia/dialog-iglesia.component';
 
 @NgModule({
   declarations: [
@@ -27,9 +28,10 @@ import { IntinerarioComponent } from './components/intinerario/intinerario.compo
     GiftComponent,
     ConfirmationComponent,
     EnvelopeComponent,
-    IntinerarioComponent
+    IntinerarioComponent,
+    DialogIglesiaComponent
   ],
-  imports: [CommonModule,RouterModule],
+  imports: [CommonModule,RouterModule, MatDialogModule],
   exports: [
     OurPhotoComponent,
     FabComponent,
@@ -41,7 +43,8 @@ import { IntinerarioComponent } from './components/intinerario/intinerario.compo
     GiftComponent,
     ConfirmationComponent,
     EnvelopeComponent,
-    IntinerarioComponent
+    IntinerarioComponent,
+    DialogIglesiaComponent
   ],
   providers: [],
 })
