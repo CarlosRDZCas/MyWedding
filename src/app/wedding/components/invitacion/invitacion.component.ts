@@ -44,6 +44,6 @@ export class InvitacionComponent implements OnInit {
 			this.minute = '0' + this.minute;
 		}
 
-		console.log(`${this.days}  ${this.hour}   ${this.minute}  ${this.second}`);
+
 	}
 }

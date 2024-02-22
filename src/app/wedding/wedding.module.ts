@@ -15,6 +15,7 @@ import { RouterModule } from '@angular/router';
 import { IntinerarioComponent } from './components/intinerario/intinerario.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { DialogIglesiaComponent } from './components/dialog-iglesia/dialog-iglesia.component';
+import { DialogSalonComponent } from './components/dialog-salon/dialog-salon.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { DialogIglesiaComponent } from './components/dialog-iglesia/dialog-igles
     ConfirmationComponent,
     EnvelopeComponent,
     IntinerarioComponent,
-    DialogIglesiaComponent
+    DialogIglesiaComponent,
+    DialogSalonComponent
   ],
   imports: [CommonModule,RouterModule, MatDialogModule],
   exports: [
@@ -44,7 +46,8 @@ import { DialogIglesiaComponent } from './components/dialog-iglesia/dialog-igles
     ConfirmationComponent,
     EnvelopeComponent,
     IntinerarioComponent,
-    DialogIglesiaComponent
+    DialogIglesiaComponent,
+    DialogSalonComponent
   ],
   providers: [],
 })
