@@ -32,7 +32,7 @@
   left: calc(50% - 1px);
 }
 .timeline-item {
-  background: url("/assets/photos/footprints90.png") no-repeat;
+  background: url("https://carlosrdzcas.github.io/MyWedding/assets/photos/footprints90.png") no-repeat;
   background-position: center;
   background-size: 55px;
   margin-bottom: 15px;
@@ -81,7 +81,7 @@
 /* responsive */
 @media (max-width: 767px) {
   .timeline-item {
-    background: url("/assets/photos/footprints90.png") no-repeat;
+    background: url("https://carlosrdzcas.github.io/MyWedding/assets/photos/footprints90.png") no-repeat;
     background-position: left;
     background-size: 55px;
     margin-bottom: 15px;
