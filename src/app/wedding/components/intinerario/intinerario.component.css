@@ -1,19 +1,15 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.quidditchdiv{
+.quidditchdiv {
   display: flex;
   justify-content: center;
-
 }
-.quidditch{
-
+.quidditch {
   height: 100px;
-
 }
 
 .timeline-section {
@@ -30,13 +26,15 @@
 .timeline-items::before {
   content: "";
   position: absolute;
-  width: 2px;
+
   height: 100%;
   background-color: #2f363e;
   left: calc(50% - 1px);
 }
 .timeline-item {
-  background-size: contain;
+  background: url("/assets/photos/footprints90.png") no-repeat;
+  background-position: center;
+  background-size: 55px;
   margin-bottom: 15px;
   width: 100%;
   position: relative;
@@ -77,20 +75,25 @@
   font-weight: 500;
 }
 .timeline-content img {
-
   height: 70px;
 }
 
 /* responsive */
 @media (max-width: 767px) {
+  .timeline-item {
+    background: url("/assets/photos/footprints90.png") no-repeat;
+    background-position: left;
+    background-size: 55px;
+    margin-bottom: 15px;
+    width: 100%;
+    position: relative;
+  }
 
-
-.quidditchdiv{
-  display: flex;
-  justify-content: start;
-  left:0
-
-}
+  .quidditchdiv {
+    display: flex;
+    justify-content: start;
+    left: 0;
+  }
   .timeline-items::before {
     left: 7px;
   }
@@ -100,7 +103,7 @@
   }
   .timeline-item:nth-child(odd),
   .timeline-item:nth-child(even) {
-    padding-left: 37px;
+    padding-left: 50px;
   }
   .timeline-dot {
     left: 0;
