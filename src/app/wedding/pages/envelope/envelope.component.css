@@ -8,8 +8,9 @@ img {
   height: 450px;
 }
 * {
-  font-family: "WeddingBells";
+  font-family: "HarryPotter";
   font-weight: bolder;
+
 
 }
 .altura {
@@ -17,7 +18,9 @@ img {
 
 }
 p {
-  color: #000000;
+
+  color: #5F603E;
+
 }
 button{
   height: 50px;
@@ -35,8 +38,8 @@ button{
 }
 
 @font-face {
-  font-family: "WeddingBells";
-  src: url("https://carlosrdzcas.github.io/MyWedding/assets/fonts/wedding-bells/wedding-bells.ttf");
+  font-family: "HarryPotter";
+  src: url("https://carlosrdzcas.github.io/MyWedding/assets/fonts/harry-potter/Harry-Potter.ttf");
 }
 
 
