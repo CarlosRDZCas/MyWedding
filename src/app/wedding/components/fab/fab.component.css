@@ -7,9 +7,17 @@
 
 
 @font-face {
-  font-family: 'LatinRoman';
-  src: url('https://carlosrdzcas.github.io/MyWedding/assets/fonts/latin-modern-roman/lmroman10-regular.otf');
+  font-family: 'GreatVibes';
+  src: url('https://carlosrdzcas.github.io/MyWedding/assets/fonts/great-vibes/GreatVibes-Regular.ttf');
 }
-*{
-  font-family: 'LatinRoman';
+
+.title{
+  font-family: 'GreatVibes';
+}
+@font-face {
+  font-family: "Monteserrat";
+  src: url("https://carlosrdzcas.github.io/MyWedding/assets/fonts/montserrat/Montserrat-Regular.ttf");
+}
+.body {
+  font-family: "Monteserrat";
 }

@@ -17,11 +17,10 @@
 } */
 
 @font-face {
-  font-family: 'WeddingBells';
-  src: url('https://carlosrdzcas.github.io/MyWedding/assets/fonts/wedding-bells/wedding-bells.ttf');
+  font-family: 'GreatVibes';
+  src: url('https://carlosrdzcas.github.io/MyWedding/assets/fonts/great-vibes/GreatVibes-Regular.ttf');
 }
-
-*{
-  font-family: 'WeddingBells';
-  font-weight: bolder;
+*
+{
+  font-family: 'GreatVibes';
 }

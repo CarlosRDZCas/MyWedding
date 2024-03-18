@@ -6,14 +6,14 @@
   font-family: "Monteserrat";
   src: url("https://carlosrdzcas.github.io/MyWedding/assets/fonts/montserrat/Montserrat-Regular.ttf");
 }
+.body {
+  font-family: "Monteserrat";
+}
 
 .title {
   font-family: "GreatVibes";
 }
 
-* {
-  font-family: "Monteserrat";
-}
 
 .bg {
   background-image: url("https://carlosrdzcas.github.io/MyWedding/assets/photos/bgpapiro.jpg");
