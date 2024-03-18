@@ -19,11 +19,11 @@
   position: absolute;
   z-index: -1;
 }
-
 @font-face {
-  font-family: "LatinRoman";
-  src: url("https://carlosrdzcas.github.io/MyWedding/assets/fonts/latin-modern-roman/lmroman10-regular.otf");
+  font-family: 'GreatVibes';
+  src: url('https://carlosrdzcas.github.io/MyWedding/assets/fonts/great-vibes/GreatVibes-Regular.ttf');
 }
-* {
-  font-family: "LatinRoman";
+
+*{
+  font-family: 'GreatVibes';
 }
