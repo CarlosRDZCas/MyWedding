@@ -52,7 +52,7 @@
 .timeline-dot {
   height: 16px;
   width: 16px;
-  background-color: #556b2f;
+
   position: absolute;
   left: calc(50% - 8px);
   border-radius: 50%;

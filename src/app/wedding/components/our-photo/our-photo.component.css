@@ -1,12 +1,14 @@
 .image-photo {
-	height: 70vh;
+	height: 100vh;
+
 	background-repeat: no-repeat;
+
+
 }
 
 .glass {
 	backdrop-filter: blur(3px);
 	border-radius: 30px;
-
 	width: fit-content;
 	background-color: rgba(0, 0, 0, 0.2);
 }
@@ -23,4 +25,12 @@
 *
 {
   font-family: 'GreatVibes';
+}
+
+@media screen and (max-width: 767px) {
+  .image-photo {
+    height: 100vh;
+    background-repeat: no-repeat;
+  }
+
 }
