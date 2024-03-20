@@ -61,6 +61,7 @@
 .timeline-date {
   font-size: 18px;
   color: #556b2f;
+  font-weight: bolder;
   margin: 6px 0 15px;
 }
 .timeline-content {
