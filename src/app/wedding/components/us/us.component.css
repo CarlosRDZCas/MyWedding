@@ -10,7 +10,7 @@
 
 .bg-color::before {
   content: "";
-  background: #718f3e;
+
   opacity: 0.7;
   top: 0;
   left: 0;
@@ -18,12 +18,24 @@
   right: 0;
   position: absolute;
   z-index: -1;
+  background: rgba(113, 143, 62, 0.3);
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+@font-face {
+  font-family: "GreatVibes";
+  src: url("https://carlosrdzcas.github.io/MyWedding/assets/fonts/great-vibes/GreatVibes-Regular.ttf");
 }
 
-@font-face {
-  font-family: "LatinRoman";
-  src: url("https://carlosrdzcas.github.io/MyWedding/assets/fonts/latin-modern-roman/lmroman10-regular.otf");
+.title {
+  font-family: "GreatVibes";
 }
-* {
-  font-family: "LatinRoman";
+@font-face {
+  font-family: "Monteserrat";
+  src: url("https://carlosrdzcas.github.io/MyWedding/assets/fonts/montserrat/Montserrat-Regular.ttf");
+}
+.body {
+  font-family: "Monteserrat";
 }
