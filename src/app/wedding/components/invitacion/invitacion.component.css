@@ -137,7 +137,15 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
+  .countdown {
+    margin: 4px auto;
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    font-family: 'Monteserrat';
+  }
+
   .time-section {
     font-size: 15px;
   }
@@ -145,14 +153,14 @@
   .time-group {
     display: flex;
     justify-content: center;
-
+    gap: 3px;
   }
 
   .time-segment {
     display: block;
     font-size:50px;
     font-weight: 900;
-    width: 50px;
+    width: 40px;
   }
 
   .segment-display {
@@ -186,7 +194,7 @@
     top: 0;
     perspective: 400px;
     height: 100%;
-    width: 50px;
+    width: 40px;
   }
 
   .segment-overlay__top,
