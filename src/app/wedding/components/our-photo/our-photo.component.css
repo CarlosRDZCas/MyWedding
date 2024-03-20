@@ -1,9 +1,11 @@
 .image-photo {
 	height: 100vh;
-
 	background-repeat: no-repeat;
+}
 
-
+.textsize{
+  height: 100px;
+  width: 100px;
 }
 
 .glass {

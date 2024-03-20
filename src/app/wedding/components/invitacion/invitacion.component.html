@@ -1,29 +1,115 @@
-<div class=" col text-justify text-center p-4">
-	<div>
-		<p class=" title display-4 font-weight-bold">Te invitamos a nuestra boda</p>
-	</div>
-	<div>
-		<p class="body">Faltan</p>
-	</div>
-	<div class="body m-2 d-inline-flex">
-		<div class=" m-2 text-center">
-			{{ days }}
-			<div>Dias</div>
-		</div>
+<div class="col text-justify text-center p-4">
+  <div>
+    <p class="title display-4 font-weight-bold">Te invitamos a nuestra boda</p>
+  </div>
+  <div>
+    <p class="body display-6">Faltan</p>
+  </div>
+  <div class="row">
+    <div class="countdown justify-content-around d-flex row">
+      <div class="time-section col-sm" id="days">
+        <div class="time-group">
+          <div class="time-segment">
+            <div class="segment-display">
+              <div class="segment-display__top"></div>
+              <div class="segment-display__bottom"></div>
+              <div class="segment-overlay">
+                <div class="segment-overlay__top"></div>
+                <div class="segment-overlay__bottom"></div>
+              </div>
+            </div>
+          </div>
+          <div class="time-segment">
+            <div class="segment-display">
+              <div class="segment-display__top"></div>
+              <div class="segment-display__bottom"></div>
+              <div class="segment-overlay">
+                <div class="segment-overlay__top"></div>
+                <div class="segment-overlay__bottom"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="body">Dias</p>
+      </div>
 
-		<div class="m-2 text-center">
-			{{ hour }}
-			<div>Horas</div>
-		</div>
+      <div class="time-section col-sm" id="hours">
+        <div class="time-group">
+          <div class="time-segment">
+            <div class="segment-display">
+              <div class="segment-display__top"></div>
+              <div class="segment-display__bottom"></div>
+              <div class="segment-overlay">
+                <div class="segment-overlay__top"></div>
+                <div class="segment-overlay__bottom"></div>
+              </div>
+            </div>
+          </div>
+          <div class="time-segment">
+            <div class="segment-display">
+              <div class="segment-display__top"></div>
+              <div class="segment-display__bottom"></div>
+              <div class="segment-overlay">
+                <div class="segment-overlay__top"></div>
+                <div class="segment-overlay__bottom"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="body">Horas</p>
+      </div>
 
-		<div class="m-2 text-center">
-			{{ minute }}
-			<div>Minutos</div>
-		</div>
+      <div class="time-section col-sm" id="minutes">
+        <div class="time-group">
+          <div class="time-segment">
+            <div class="segment-display">
+              <div class="segment-display__top"></div>
+              <div class="segment-display__bottom"></div>
+              <div class="segment-overlay">
+                <div class="segment-overlay__top"></div>
+                <div class="segment-overlay__bottom"></div>
+              </div>
+            </div>
+          </div>
+          <div class="time-segment">
+            <div class="segment-display">
+              <div class="segment-display__top"></div>
+              <div class="segment-display__bottom"></div>
+              <div class="segment-overlay">
+                <div class="segment-overlay__top"></div>
+                <div class="segment-overlay__bottom"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="body">Minutos</p>
+      </div>
 
-		<div class="m-2 text-center">
-			{{ second }}
-			<div>Segundos</div>
-		</div>
-	</div>
+      <div class="time-section col-sm" id="seconds">
+        <div class="time-group">
+          <div class="time-segment">
+            <div class="segment-display">
+              <div class="segment-display__top"></div>
+              <div class="segment-display__bottom"></div>
+              <div class="segment-overlay">
+                <div class="segment-overlay__top"></div>
+                <div class="segment-overlay__bottom"></div>
+              </div>
+            </div>
+          </div>
+          <div class="time-segment">
+            <div class="segment-display">
+              <div class="segment-display__top"></div>
+              <div class="segment-display__bottom"></div>
+              <div class="segment-overlay">
+                <div class="segment-overlay__top"></div>
+                <div class="segment-overlay__bottom"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="body">Segundos</p>
+      </div>
+    </div>
+  </div>
 </div>

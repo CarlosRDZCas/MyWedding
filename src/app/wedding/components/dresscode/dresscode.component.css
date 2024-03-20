@@ -3,12 +3,30 @@
 	width: 85px;
 }
 .bg-color {
-	background-color: rgb(189, 216, 142);
+  width: 100vw;
+
+  position: relative;
+}
+
+.bg-color::before {
+  content: "";
+
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background: rgba(113, 143, 62, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .imgsize{
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 180px;
   border-radius:20px;
 }
 
