@@ -141,6 +141,28 @@
   }
 }
 
+
+@keyframes flip-top {
+  0% {
+   transform:  rotateX(0deg);
+  }
+  50%,
+  100% {
+ transform: rotateX(-90deg);
+  }
+}
+
+@keyframes flip-bottom {
+  0%,
+  50% {
+   transform: rotateX(90deg);
+  }
+  100% {
+   transform: rotateX(0deg);
+  }
+}
+
+
 @media screen and (max-width: 800px) {
   .countdown {
     margin: 4px auto;
