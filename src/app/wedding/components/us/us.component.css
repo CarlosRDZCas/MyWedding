@@ -3,7 +3,7 @@
   width: 180px;
 }
 .bg-color {
-  width: 100vw;
+  max-width: 100vw;
 
   position: relative;
 }

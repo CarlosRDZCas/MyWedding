@@ -3,6 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+.esquina {
+  position: absolute;
+  left: 0;
+  margin-left: 30px;
+  height: 200px;
+  transform: rotate(90deg);
+}
+
+.esquina2 {
+  position: absolute;
+  right: 0;
+   margin-right: 40px;
+   margin-top: 30px;
+  height: 200px;
+  transform: rotate(180deg);
+}
 
 .quidditchdiv {
   display: flex;
@@ -10,6 +26,7 @@
 }
 .quidditch {
   height: 100px;
+  margin-top: 80px;
 }
 
 .timeline-section {
@@ -32,7 +49,8 @@
   left: calc(50% - 1px);
 }
 .timeline-item {
-  background: url("https://carlosrdzcas.github.io/MyWedding/assets/photos/footprints90.png") no-repeat;
+  background: url("https://carlosrdzcas.github.io/MyWedding/assets/photos/footprints90.png")
+    no-repeat;
   background-position: center;
   background-size: 55px;
   margin-bottom: 15px;
@@ -82,7 +100,8 @@
 /* responsive */
 @media (max-width: 767px) {
   .timeline-item {
-    background: url("https://carlosrdzcas.github.io/MyWedding/assets/photos/footprints90.png") no-repeat;
+    background: url("https://carlosrdzcas.github.io/MyWedding/assets/photos/footprints90.png")
+      no-repeat;
     background-position: left;
     background-size: 55px;
     margin-bottom: 15px;
@@ -92,7 +111,7 @@
 
   .quidditchdiv {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     left: 0;
   }
   .timeline-items::before {
@@ -111,12 +130,12 @@
   }
 }
 @font-face {
-  font-family: 'GreatVibes';
-  src: url('https://carlosrdzcas.github.io/MyWedding/assets/fonts/great-vibes/GreatVibes-Regular.ttf');
+  font-family: "GreatVibes";
+  src: url("https://carlosrdzcas.github.io/MyWedding/assets/fonts/great-vibes/GreatVibes-Regular.ttf");
 }
 
-.title{
-  font-family: 'GreatVibes';
+.title {
+  font-family: "GreatVibes";
 }
 @font-face {
   font-family: "Monteserrat";
