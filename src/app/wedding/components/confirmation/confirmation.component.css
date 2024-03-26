@@ -14,9 +14,9 @@
   font-family: 'GreatVibes';
 }
 @font-face {
-  font-family: "Monteserrat";
-  src: url("https://carlosrdzcas.github.io/MyWedding/assets/fonts/montserrat/Montserrat-Regular.ttf");
+  font-family: "Playfair";
+  src: url("https://carlosrdzcas.github.io/MyWedding/assets/fonts/playfair/PlayfairDisplay-Italic-VariableFont_wght.ttf");
 }
 .body {
-  font-family: "Monteserrat";
+  font-family: "Playfair";
 }
