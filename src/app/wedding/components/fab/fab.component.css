@@ -14,10 +14,6 @@
 .title{
   font-family: 'GreatVibes';
 }
-@font-face {
-  font-family: "Playfair";
-  src: url("https://carlosrdzcas.github.io/MyWedding/assets/fonts/playfair/PlayfairDisplay-Italic-VariableFont_wght.ttf");
-}
 .body {
-  font-family: "Playfair";
+  font-family: 'Times New Roman', Times, serif;
 }
