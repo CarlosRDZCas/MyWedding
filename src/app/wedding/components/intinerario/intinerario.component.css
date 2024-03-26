@@ -43,7 +43,9 @@
   height: 200px;
   transform: rotate(180deg);
 } */
-
+.txtcolor{
+  color: #CDB77C;
+}
 .quidditchdiv {
   display: flex;
   justify-content: center;
@@ -101,7 +103,7 @@
 }
 .timeline-date {
   font-size: 18px;
-  color: #556b2f;
+  color: #CDB77C;
   font-weight: bolder;
   margin: 6px 0 15px;
 }

@@ -2,18 +2,20 @@
   position: fixed;
   bottom: 1rem;
   right: 1rem;
-
 }
-
 
 @font-face {
-  font-family: 'GreatVibes';
-  src: url('https://carlosrdzcas.github.io/MyWedding/assets/fonts/great-vibes/GreatVibes-Regular.ttf');
+  font-family: "GreatVibes";
+  src: url("https://carlosrdzcas.github.io/MyWedding/assets/fonts/great-vibes/GreatVibes-Regular.ttf");
 }
 
-.title{
-  font-family: 'GreatVibes';
+.title {
+  font-family: "GreatVibes";
 }
 .body {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.btncolor {
+  background: rgba(113, 143, 62);
 }

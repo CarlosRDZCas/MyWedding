@@ -6,6 +6,9 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+.txtcolor{
+  color: #CDB77C;
+}
 
 .title {
   font-family: "GreatVibes";
@@ -63,13 +66,13 @@
 .segment-display__top {
   line-height: 1.5;
   color: #eee;
-  background-color: #111;
+  background-color: #CDB77C;
 }
 
 .segment-display__bottom {
   line-height: 0;
   color: #fff;
-  background-color: #333;
+  background-color: #CDB77C;
 }
 
 .segment-overlay {
@@ -96,7 +99,7 @@
   display: block;
   line-height: 1.5;
   color: #fff;
-  background-color: #111;
+  background-color: #CDB77C;
   -webkit-transform-origin: bottom;
   transform-origin: bottom;
 }
@@ -106,8 +109,8 @@
   bottom: 0;
   line-height: 0;
   color: #eee;
-  background-color: #333;
-  border-top: 2px solid black;
+  background-color: #CDB77C;
+  border-top: 2px solid #CDB77C;
 
   -webkit-transform-origin: top;
   transform-origin: top;
