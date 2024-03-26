@@ -33,9 +33,26 @@
 }
 
 .body {
-  font-family: 'Times New Roman', Times, serif;
-
+  font-family: "Times New Roman", Times, serif;
 }
-.txtcolor{
-  color: #CDB77C;
+.txtcolor {
+  color: #cdb77c;
+}
+
+@keyframes hero {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.heroscroll {
+  view-timeline-name: --div2;
+  view-timeline-axis: block;
+  animation-timeline: --div2;
+  animation-name: hero;
+  animation-range: 15% cover 50%;
+  animation-fill-mode: backwards;
 }

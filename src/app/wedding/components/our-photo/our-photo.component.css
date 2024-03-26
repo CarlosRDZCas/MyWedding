@@ -1,18 +1,18 @@
 .image-photo {
-	height: 100vh;
-	background-repeat: no-repeat;
+  height: 100vh;
+  background-repeat: no-repeat;
 }
 
-.textsize{
+.textsize {
   height: 100px;
   width: 100px;
 }
 
 .glass {
-	backdrop-filter: blur(3px);
-	border-radius: 30px;
-	width: fit-content;
-	background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(3px);
+  border-radius: 30px;
+  width: fit-content;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* @font-face {
@@ -21,12 +21,11 @@
 } */
 
 @font-face {
-  font-family: 'GreatVibes';
-  src: url('https://carlosrdzcas.github.io/MyWedding/assets/fonts/great-vibes/GreatVibes-Regular.ttf');
+  font-family: "GreatVibes";
+  src: url("https://carlosrdzcas.github.io/MyWedding/assets/fonts/great-vibes/GreatVibes-Regular.ttf");
 }
-*
-{
-  font-family: 'GreatVibes';
+* {
+  font-family: "GreatVibes";
 }
 
 @media screen and (max-width: 767px) {
@@ -34,10 +33,25 @@
     height: 100vh;
     background-repeat: no-repeat;
   }
-
 }
 
+.txtcolor {
+  color: #cdb77c;
+}
 
-.txtcolor{
-  color: #CDB77C;
+@keyframes fade-out {
+  20% {
+    opacity: 1;
+  }
+
+  85%,100% {
+    opacity: 0;
+
+  }
+}
+
+.fadeout {
+  animation: fade-out linear forwards;
+  animation-timeline: view();
+  animation-range: exit;
 }
