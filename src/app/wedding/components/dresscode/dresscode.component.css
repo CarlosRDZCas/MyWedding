@@ -26,8 +26,8 @@
 
 
 .imgsize{
-  height: 100px;
-  width: 150px;
+  height: 80px;
+  width: 120px;
   border-radius:20px;
 }
 
@@ -106,3 +106,12 @@
     animation-fill-mode: both;
   }
 
+
+  @media (max-width: 767px)  {
+    .imgsize{
+      height: 60px;
+      width: 100px;
+      margin-top: 20px;
+      border-radius:20px;
+    }
+  }

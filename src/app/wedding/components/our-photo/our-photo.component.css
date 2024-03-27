@@ -1,5 +1,5 @@
 .image-photo {
-  width:100vw;
+  width: 100vw;
   background-repeat: no-repeat;
 }
 
@@ -35,8 +35,9 @@
   }
 }
 
-.txtcolor {
-  color: #cdb77c;
+.txtcolor {    background: linear-gradient(to bottom, #cfc09f 27%, #ffecb3 40%, #3a2c0f 78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @keyframes fade-out {
@@ -44,9 +45,9 @@
     opacity: 1;
   }
 
-  85%,100% {
+  85%,
+  100% {
     opacity: 0;
-
   }
 }
 
