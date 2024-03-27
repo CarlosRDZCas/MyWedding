@@ -50,3 +50,19 @@
 .txtcolor{
   color: #CDB77C;
 }
+@keyframes slidein {
+  from{
+    transform: translateX(-150%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+
+
+}
+
+.slidein {
+  animation: slidein linear both;
+  animation-timeline: view();
+  animation-range: 0% cover 40%;
+}

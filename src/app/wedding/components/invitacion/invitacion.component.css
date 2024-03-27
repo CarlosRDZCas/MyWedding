@@ -22,7 +22,7 @@ to{
   view-timeline-axis: block;
   animation-timeline: --div;
   animation-name: show;
-  animation-range: entry 25% cover 60%;
+  animation-range: entry 10% cover 80%;
   animation-fill-mode: both;
 }
 

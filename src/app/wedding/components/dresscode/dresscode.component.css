@@ -85,3 +85,24 @@
 .txtcolor{
   color: #CDB77C;
 }
+
+@keyframes show{
+  from{
+    opacity: 0;
+    scale: 25%;
+  }
+  to{
+    opacity: 1;
+    scale: 100%;
+  }
+  }
+
+  .showup{
+    view-timeline-name: --div;
+    view-timeline-axis: block;
+    animation-timeline: --div;
+    animation-name: show;
+    animation-range: entry 20% cover 50%;
+    animation-fill-mode: both;
+  }
+

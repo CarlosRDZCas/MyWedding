@@ -23,3 +23,20 @@
   /* background: rgba(113, 143, 62); */
   background: #CDB77C;;
 }
+@keyframes hero {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.heroscroll {
+  view-timeline-name: --div2;
+  view-timeline-axis: block;
+  animation-timeline: --div2;
+  animation-name: hero;
+  animation-range: 10% cover 30%;
+  animation-fill-mode: backwards;
+}

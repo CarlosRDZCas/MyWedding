@@ -182,3 +182,42 @@
 .body {
   font-family: 'Times New Roman', Times, serif;
 }
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  80%,100% {
+    opacity: 1;
+  }
+}
+
+.fadeinscroll {
+  animation: fadein linear ;
+  animation-timeline: view();
+
+}
+
+
+
+@keyframes show{
+  from{
+    opacity: 0;
+    scale: 25%;
+  }
+  to{
+    opacity: 1;
+    scale: 100%;
+  }
+  }
+
+  .showup{
+    view-timeline-name: --div;
+    view-timeline-axis: block;
+    animation-timeline: --div;
+    animation-name: show;
+    animation-range: entry 25% cover 60%;
+    animation-fill-mode: both;
+  }
+
+
