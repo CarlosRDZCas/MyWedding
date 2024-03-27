@@ -20,8 +20,8 @@
   color: #CDB77C;
 }
 .btncolor {
-  /* background: rgba(113, 143, 62); */
-  background: #CDB77C;;
+  background: rgba(113, 143, 62);
+  /* background: #CDB77C;; */
 }
 @keyframes hero {
   from {

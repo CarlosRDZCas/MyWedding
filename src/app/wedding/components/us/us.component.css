@@ -10,7 +10,6 @@
 
 .bg-color::before {
   content: "";
-
   opacity: 0.7;
   top: 0;
   left: 0;
