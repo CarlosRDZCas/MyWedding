@@ -9,7 +9,7 @@ const routes: Routes = [
 	{ path: 'envelope/:category', component: EnvelopeComponent },
 	 { path: 'invitation', component: InvitationComponent },
 	//{ path: 'invitation', component: InvitationComponent },
-	{ path: '**', redirectTo: 'envelope' },
+	{ path: '**', redirectTo: 'envelope/:category' },
 ];
 
 @NgModule({
