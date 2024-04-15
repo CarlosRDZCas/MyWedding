@@ -1,6 +1,8 @@
 .image-photo {
   width: 100vw;
   background-repeat: no-repeat;
+  filter: brightness(60%);
+
 }
 
 .textsize {
@@ -32,6 +34,7 @@
   .image-photo {
     height: 100vh;
     background-repeat: no-repeat;
+    backdrop-filter: brightness(20%);
   }
 }
 
@@ -55,4 +58,8 @@
   animation: fade-out linear forwards;
   animation-timeline: view();
   animation-range: exit;
+}
+
+.txtcolor{
+  color: #CDB77C;
 }

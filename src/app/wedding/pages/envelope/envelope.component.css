@@ -1,7 +1,27 @@
 .bgimg {
- background-image: url('https://carlosrdzcas.github.io/MyWedding/assets/photos/portada.jpg');
+ background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url('https://carlosrdzcas.github.io/MyWedding/assets/photos/portada.jpg');
   background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: top;
+  backdrop-filter: blur(20px);
+
 }
+
+
+.body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.btncolor {
+  background:#7F9B84;
+  /* background: #CDB77C; */
+}
+
+
 
 @media (max-width: 728px) {
   img {
@@ -17,3 +37,8 @@
 }
 
 
+
+.txtcolor {    background: linear-gradient(to bottom, #cfc09f 27%, #ffecb3 40%, #3a2c0f 78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

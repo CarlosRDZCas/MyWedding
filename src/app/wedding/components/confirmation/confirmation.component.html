@@ -1,9 +1,17 @@
 <div class="col p-4 heroscroll text-justify text-center">
-	<h4 class="title fw-bolder display-3 txtcolor">Confirma tu asistencia</h4>
-  <br>
-	<img src="assets/photos/confirmation.png" alt="" class="icon" />
-	<div>
-    <br>
-		<button type="button" class="body btn fw-bolder btncolor btn-lg ">Whatsapp</button>
-	</div>
+  <h4 class="title fw-bolder display-3 txtcolor">Confirma tu asistencia</h4>
+  <h1 class="body fw-bold fs-2"> Invitación para: {{ invitados.length }} personas</h1>
+  <h1 class="body fs-4" *ngFor="let invitado of invitados">{{ invitado }}</h1>
+
+  <br />
+  <img src="assets/photos/confirmation.png" alt="" class="icon" />
+  <div>
+    <br />
+    <button
+      type="button"
+      class="body mt-4 btn fw-bolder btncolor btn-lg text-light"
+    >
+      Whatsapp
+    </button>
+  </div>
 </div>

@@ -6,9 +6,9 @@ import { InvitationComponent } from './wedding/pages/invitation/invitation.compo
 
 const routes: Routes = [
 	// { path: '', component: HomePageComponent },
-	{ path: 'envelope', component: EnvelopeComponent },
-	{ path: 'invitation', component: InvitationComponent },
-
+	{ path: 'envelope/:category', component: EnvelopeComponent },
+	 { path: 'invitation', component: InvitationComponent },
+	//{ path: 'invitation', component: InvitationComponent },
 	{ path: '**', redirectTo: 'envelope' },
 ];
 
