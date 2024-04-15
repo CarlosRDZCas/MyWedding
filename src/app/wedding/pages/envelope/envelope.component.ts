@@ -11,9 +11,7 @@ export class EnvelopeComponent {
   category: string = '';
 
   constructor(private router: Router, private _activatedRoute: ActivatedRoute) {
-    this._activatedRoute.paramMap.subscribe((params: ParamMap) => {
-      this.category = params.get('category')!;
-    });
+    this.category = this._activatedRoute.snapshot.queryParamMap.get('ID')!;
+    console.log(this.category);
   }
-
 }

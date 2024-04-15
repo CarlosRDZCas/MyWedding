@@ -3,17 +3,17 @@ import { RouterModule, Routes } from '@angular/router';
 import { EnvelopeComponent } from './wedding/pages/envelope/envelope.component';
 import { InvitationComponent } from './wedding/pages/invitation/invitation.component';
 
-
 const routes: Routes = [
-	// { path: '', component: HomePageComponent },
-	{ path: 'envelope/:category', component: EnvelopeComponent },
-	 { path: 'invitation', component: InvitationComponent },
-	//{ path: 'invitation', component: InvitationComponent },
-	{ path: '**', redirectTo: 'envelope/:category' },
+  // { path: ':category', component: EnvelopeComponent},
+  // { path: 'envelope', component: EnvelopeComponent },
+  { path: 'envelope', component: EnvelopeComponent },
+  { path: 'invitation', component: InvitationComponent },
+
+  { path: '**', redirectTo: 'envelope' },
 ];
 
 @NgModule({
-	imports: [RouterModule.forRoot(routes)],
-	exports: [RouterModule],
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule],
 })
 export class AppRoutingModule {}
