@@ -1,12 +1,17 @@
-
-  <div class="parallax ">
-    <wedding-our-photo ></wedding-our-photo>
-    <wedding-invitacion ></wedding-invitacion>
-    <wedding-us></wedding-us>
-    <wedding-lugares ></wedding-lugares>
-      <wedding-intinerario></wedding-intinerario>
-    <wedding-fab></wedding-fab>
-    <weeding-dresscode></weeding-dresscode>
-    <weeding-gift></weeding-gift>
-    <wedding-confirmation></wedding-confirmation>
-  </div>
+<div
+  *ngIf="isLoading === false && existe != ''  ; else noexiste"
+  class="parallax"
+>
+  <wedding-our-photo></wedding-our-photo>
+  <wedding-invitacion></wedding-invitacion>
+  <wedding-us></wedding-us>
+  <wedding-lugares></wedding-lugares>
+  <wedding-intinerario></wedding-intinerario>
+  <wedding-fab></wedding-fab>
+  <weeding-dresscode></weeding-dresscode>
+  <weeding-gift></weeding-gift>
+  <wedding-confirmation></wedding-confirmation>
+</div>
+<ng-template #noexiste>
+  <h1>No tiene autorizacion para ver la invitacion</h1>
+</ng-template>
