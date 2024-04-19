@@ -11,7 +11,7 @@
 .parallax::before {
   /* Set a specific height */
   content: "";
-  background: url("https://carlosrdzcas.github.io/MyWedding/assets/photos/marauders.jpg");
+  background: url("/assets/photos/marauders.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

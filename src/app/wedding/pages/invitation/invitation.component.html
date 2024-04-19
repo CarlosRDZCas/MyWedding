@@ -1,9 +1,9 @@
 <div
-  *ngIf="isLoading === false && existe != ''  ; else noexiste"
+  *ngIf="isLoading === false && existe != ''  "
   class="parallax"
 >
   <wedding-our-photo></wedding-our-photo>
-  <wedding-invitacion></wedding-invitacion>
+  <wedding-invitacion class="animate__animated animate__fadeIn animate__delay-1s"></wedding-invitacion>
   <wedding-us></wedding-us>
   <wedding-lugares></wedding-lugares>
   <wedding-intinerario></wedding-intinerario>
@@ -12,6 +12,3 @@
   <weeding-gift></weeding-gift>
   <wedding-confirmation></wedding-confirmation>
 </div>
-<ng-template #noexiste>
-  <h1>No tiene autorizacion para ver la invitacion</h1>
-</ng-template>
