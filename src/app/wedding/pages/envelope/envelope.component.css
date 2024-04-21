@@ -42,3 +42,12 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@font-face {
+  font-family: "GreatVibes";
+  src: url("https://carlosrdzcas.github.io/MyWedding/assets/fonts/great-vibes/GreatVibes-Regular.ttf");
+}
+
+.title {
+  font-family: "GreatVibes";
+}
