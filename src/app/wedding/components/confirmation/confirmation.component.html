@@ -1,8 +1,11 @@
 <div class="col p-4 heroscroll text-justify text-center">
   <h4 class="title fw-bolder display-3 txtcolor">Confirma tu asistencia</h4>
-  <h1 class="body fw-bold fs-2"> Invitación para: {{ invitados.length }} personas</h1>
+
+  <h1 class="body fw-bold fs-2" *ngIf="invitados.length > 1; else invitado">
+    Invitación para: {{ invitados.length }} personas
+  </h1>
   <h1 class="body fs-4" *ngFor="let invitado of invitados">{{ invitado }}</h1>
-  <h1 class="body fs-6 fw-bolder"> Favor de confirmar antes del 15 de Mayo</h1>
+  <h1 class="body fs-6 fw-bolder">Favor de confirmar antes del 15 de Mayo</h1>
   <br />
   <img src="assets/photos/confirmation.png" alt="" class="icon" />
   <div>
@@ -16,3 +19,9 @@
     </button>
   </div>
 </div>
+
+<ng-template #invitado>
+  <h1 class="body fw-bold fs-2">
+    Invitación para: {{ invitados.length }} persona
+  </h1>
+</ng-template>
