@@ -49,12 +49,6 @@ position: relative;
 
 }
 
-
-@keyframes slideinRight {
-  0%{left: -100px;}
-  100% { left: 0; }
-}
-
 .slidein {
   animation: slidein linear both;
   animation-timeline: view();
@@ -62,8 +56,3 @@ position: relative;
 }
 
 
-.slideinRight {
-  animation: slideinRight linear both;
-  animation-timeline: view();
-  animation-range: 10% cover 40%;
-}
