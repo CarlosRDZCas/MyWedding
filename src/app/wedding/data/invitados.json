@@ -114,7 +114,7 @@
   {
     "ID": "e6d9dc8e-a258-447f-88a3-fcdcf0c962d5",
     "Invitados": [
-      "Evis Resendiz",
+      "Elvia Resendiz",
       "Jose Garcia",
       "Micaela Carrizales",
       "Josue Garcia",
@@ -147,11 +147,7 @@
   },
   {
     "ID": "66ec785a-f191-475f-abbd-e82d85c8ffa5",
-    "Invitados": ["Blanca Ayala", "Segio Arroyo"]
-  },
-  {
-    "ID": "a190333a-baed-4508-acf0-22c66cec7ec6",
-    "Invitados": ["Angeles Alcala"]
+    "Invitados": ["Blanca Ayala", "Segio Arroyo", "Angeles Alcala"]
   },
   {
     "ID": "b9bcf90f-ba69-433f-8675-48b4a9e0930a",
@@ -203,6 +199,6 @@
   },
   {
     "ID": "fd350b72-b84f-4845-b519-ba0fd981b2d9",
-    "Invitados": ["Dania Hernandez", "Acompañante"]
+    "Invitados": ["Diana Hernandez", "Acompañante"]
   }
 ]
